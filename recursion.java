@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 
 public class recursion {
@@ -15,6 +14,7 @@ public static void main(String[]args){
     int n=sc.nextInt();
     int result=factorial(n);
     System.out.print("the factorial of "+ n+" is"+result);
+    sc.close();
 }
     
 }
