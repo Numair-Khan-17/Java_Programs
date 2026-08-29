@@ -30,5 +30,6 @@ class magicsquare {
 
         if (d1 != sum || d2 != sum) magic = false;
         System.out.println(magic ? "Magic Square" : "Not a Magic Square");
+        sc.close();
     }
 }

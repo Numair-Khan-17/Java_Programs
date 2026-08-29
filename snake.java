@@ -2,7 +2,7 @@ import java.util.*;
 
 class snake {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
 
         int n = sc.nextInt();
         int[][] a = new int[n][n];
@@ -35,6 +35,7 @@ class snake {
                     System.out.print(a[i][left] + " ");
                 left++;
             }
+        }
         }
     }
 }
