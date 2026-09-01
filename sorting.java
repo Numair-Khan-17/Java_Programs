@@ -18,7 +18,7 @@ public class sorting{
 					}
 				}
 			}
-			System.out.println("After sorting ");
+			System.out.println("After sorting ");	
 			for(int x:a){
 				System.out.print(x+"");
 			}
