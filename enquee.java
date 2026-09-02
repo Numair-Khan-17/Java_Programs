@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class enquee {
     int[] a;
     int front, rear, capacity;
