@@ -3,7 +3,7 @@ public class deque
 {
   public static void main(String[] args) 
   {
-    Deque<Integer> q = new ArrayDeque<>();
+    Deque<Integer> q = new ArrayDeque<>();//declaration of interface
     q.add(10);
     q.add(20);
     q.add(30);
