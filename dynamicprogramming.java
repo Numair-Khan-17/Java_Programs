@@ -1,7 +1,5 @@
-import java .util.*;
 public class dynamicprogramming {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         int n=10;
         int[] dp=new int[10];
         dp[0]=1;
