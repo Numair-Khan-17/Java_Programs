@@ -14,6 +14,7 @@ public class hashmap {
         }
         else {
             System.out.println("Not found");
+            System.out.println("The size of the map is: " + map.size());
         }
     }
 }
