@@ -11,5 +11,7 @@ public class stackcollection {
         System.out.println("Popped element is: " + stack.pop());
         stack.peek();
         System.out.println(stack.isEmpty());
+        System.out.println("The size of the stack is: " + stack.size());
+
     }
 }
